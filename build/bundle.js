@@ -6603,201 +6603,241 @@ require.define("/src/js/intl/strings.js",function(require,module,exports,__dirna
   'learn-git-branching': {
     '__desc__': 'The title of the app, with spaces',
     'en_US': 'Learn Git Branching',
-    'ko': 'Git 브랜치 배우기'
+    'ko': 'Git 브랜치 배우기',
+    'es_MX': 'Aprende Git Branching'
   },
   ///////////////////////////////////////////////////////////////////////////
   'select-a-level': {
     '__desc__': 'The prompt to select a level on the drop down view',
-    'en_US': 'Select a level'
+    'en_US': 'Select a level',
+    'es_MX':'Elige un nivel'
   },
   ///////////////////////////////////////////////////////////////////////////
   'branch-name-short': {
     '__desc__': 'When branch names get too long, we need to truncate them. This is the warning for that',
     'en_US': 'Sorry, we need to keep branch names short for the visuals. Your branch name was truncated to 9 characters, resulting in "{branch}"'
+    'es_MX':'Disculpa, es necesario mantener los nombres cortos para que se vea bien. El nombre de tu rama fue cortado a 9 caracteres, resultando en "{branch}"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'bad-branch-name': {
     '__desc__': 'When the user enters a branch name thats not ok',
-    'en_US': 'That branch name "{branch}" is not allowed!'
+    'en_US': 'That branch name "{branch}" is not allowed!',
+    'es_MX':'¡El nombre elegido "{branch}" no está permitido!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'option-not-supported': {
     '__desc__': 'When the user specifies an option that is not supported by our demo',
-    'en_US': 'The option "{option}" is not supported!'
+    'en_US': 'The option "{option}" is not supported!',
+    'es_MX':'¡La opción "{option}" no está soportada!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-usage-command': {
     '__desc__': 'The line that shows how to format a git command',
-    'en_US': 'git <command> [<args>]'
+    'en_US': 'git <command> [<args>]',
+    'es_MX': 'git <command> [<args>]'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-supported-commands': {
     '__desc__': 'In the git help command, the header above the supported commands',
-    'en_US': 'Supported commands:'
+    'en_US': 'Supported commands:',
+    'es_MX': 'Comandos permitidos:'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-usage': {
     '__desc__': 'In the dummy git output, the header before showing all the commands',
-    'en_US': 'Usage:'
+    'en_US': 'Usage:',
+    'es_MX': 'Modo de uso:'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-version': {
     '__desc__': 'The git version dummy output, kind of silly. PCOTTLE is my unix name but feel free to put yours instead',
-    'en_US': 'Git Version PCOTTLE.1.0'
+    'en_US': 'Git Version PCOTTLE.1.0',
+    'es_MX': 'Git Version PCOTTLE.1.0'
   },
   ///////////////////////////////////////////////////////////////////////////
   'refresh-tree-command': {
     '__desc__': 'when the tree is visually refreshed',
-    'en_US': 'Refreshing tree...'
+    'en_US': 'Refreshing tree...',
+    'es_MX': 'Acualizando...'
   },
   ///////////////////////////////////////////////////////////////////////////
   'locale-command': {
     '__desc__': 'when the locale is set to something',
-    'en_US': 'Locale set to {locale}'
+    'en_US': 'Locale set to {locale}',
+    'es_MX': 'Locale configurado a {locale}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'locale-reset-command': {
     '__desc__': 'when the locale is reset',
-    'en_US': 'Locale reset to default, which is {locale}'
+    'en_US': 'Locale reset to default, which is {locale}',
+    'es_MX': 'Locale reestablecido al default, el cual es {locale}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'cd-command': {
     '__desc__': 'dummy command output for the command in the key',
-    'en_US': 'Directory changed to "/directories/dont/matter/in/this/demo"'
+    'en_US': 'Directory changed to "/directories/dont/matter/in/this/demo"',
+    'es_MX': 'Directorio cambiado a "/directories/dont/matter/in/this/demo"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'ls-command': {
     '__desc__': 'Dummy command output for the command in the key',
-    'en_US': 'DontWorryAboutFilesInThisDemo.txt'
+    'en_US': 'DontWorryAboutFilesInThisDemo.txt',
+    'es_MX': 'NoTePreocupesPorArchivosEnEsteDemo.txt'
   },
   'mobile-alert': {
     '__desc__': 'When someone comes to the site on a mobile device, they can not input commands so this is a nasty alert to tell them',
-    'en_US': 'Can\'t bring up the keyboard on mobile / tablet :( try visiting on desktop! :D'
+    'en_US': 'Can\'t bring up the keyboard on mobile / tablet :( try visiting on desktop! :D',
+    'es_MX': 'Lo sentimos, no podemos iniciarlizar el teclado en tu teléfono / tableta. Intenta visitando desde tu computadora :D'
   },
   ///////////////////////////////////////////////////////////////////////////
   'share-tree': {
     '__desc__': 'When you export a tree, we want you to share the tree with friends',
-    'en_US': 'Share this tree with friends! They can load it with "import tree"'
+    'en_US': 'Share this tree with friends! They can load it with "import tree"',
+    'es_MX': '¡Comparte este árbol con tus amigos! Ellos pueden cargarlo usando "import tree"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'paste-json': {
     '__desc__': 'When you are importing a level or tree',
-    'en_US': 'Paste a JSON blob below!'
+    'en_US': 'Paste a JSON blob below!',
+    'es_MX': 'Pega el aquí abajo tu código en JSON'
   },
   ///////////////////////////////////////////////////////////////////////////
   'solved-map-reset': {
     '__desc__': 'When you reset the solved map to clear your solved history, in case someone else wants to use your browser',
-    'en_US': 'Solved map was reset, you are starting from a clean slate!'
+    'en_US': 'Solved map was reset, you are starting from a clean slate!',
+    'es_MX': 'Tu progreso ha sido limpiado, ahora estás iniciando desde un nuevo estado'
   },
   ///////////////////////////////////////////////////////////////////////////
   'level-cant-exit': {
     '__desc__': 'When the user tries to exit a level when they are not in one',
-    'en_US': 'You are not in a level! You are in a sandbox, start a level with "levels"'
+    'en_US': 'You are not in a level! You are in a sandbox, start a level with "levels"',
+    'es_MX': '¡No estás en ningún nivel! Estás en el "sandbox", inicia un nivel usando "levels"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'level-no-id': {
     '__desc__': 'When you say an id but that level doesnt exist',
-    'en_US': 'A level for that id "{id}" was not found! Opening up a level selection view'
+    'en_US': 'A level for that id "{id}" was not found! Opening up a level selection view',
+    'es_MX': 'No se encontró un nivel con el id {id}. Abriendo la selección de niveles'
   },
   ///////////////////////////////////////////////////////////////////////////
   'undo-stack-empty': {
     '__desc__': 'The undo command can only undo back until the last time the level was reset or the beginning of the level',
-    'en_US': 'The undo stack is empty!'
+    'en_US': 'The undo stack is empty!',
+    'es_MX': '¡Ya no haay más pasos para deshacer!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'already-solved': {
     '__desc__': 'When you play in a level that is already solved',
-    'en_US': 'You have alreaady solved this levle, try other levels with "levels" or go back to sandbox with "sandbox"'
+    'en_US': 'You have alreaady solved this level, try other levels with "levels" or go back to sandbox with "sandbox"',
+    'es_MX': 'Ya has resuelto este nivel, intenta otros niveles usando "levels" o regresa al "sandbox" usando "sandbox"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'command-disabled': {
     '__desc__': 'When you try a command that is disabled',
-    'en_US': 'That git command is disabled for this level!'
+    'en_US': 'That git command is disabled for this level!',
+    'es_MX': '¡Ese comando de git está deshabilitado en este nivel!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'share-json': {
     '__desc__': 'when you have made the level, prompt to share this',
-    'en_US': 'Here is the JSON for this level! Share it with somenoe or send it to me on Github'
+    'en_US': 'Here is the JSON for this level! Share it with someone or send it to me on Github',
+    'es_MX': '¡Aqui está el JSON para este nivel! Compartelo con alguien o envíamelo a mi en Github'
   },
   ///////////////////////////////////////////////////////////////////////////
   'want-start-dialog': {
     '__desc__': 'prompt to add a start dialog',
-    'en_US': 'You have not specified a start dialog, would you like to add one?'
+    'en_US': 'You have not specified a start dialog, would you like to add one?',
+    'es_MX': 'No has especificado un diálogo de inicio, ¿te gustaría agregar uno?'
   },
   ///////////////////////////////////////////////////////////////////////////
   'want-hint': {
     '__desc__': 'prompt to add a hint',
-    'en_US': 'You have not specified a hint, would you like to add one?'
+    'en_US': 'You have not specified a hint, would you like to add one?',
+    'es_MX': 'No has especificado una pista, ¿te gustaría agregar una?'
   },
   ///////////////////////////////////////////////////////////////////////////
   'prompt-hint': {
     '__desc__': 'prompt for hint',
-    'en_US': 'Enter the hint for this level, or leave this blank if you do not want to include one'
+    'en_US': 'Enter the hint for this level, or leave this blank if you do not want to include one',
+    'es_MX': 'Ingresa la pista para este nivel, o déjalo en blanco si no quieres incluir una'
   },
   ///////////////////////////////////////////////////////////////////////////
   'prompt-name': {
     '__desc__': 'prompt for level name',
-    'en_US': 'Enter the name for the level'
+    'en_US': 'Enter the name for the level',
+    'es_MX': 'Ingresa el nombre para el nivel'
   },
   ///////////////////////////////////////////////////////////////////////////
   'solution-empty': {
     '__desc__': 'If you define a solution without any commands, aka a level that is solved without doing anything',
-    'en_US': 'Your solution is empty!! Something is amiss'
+    'en_US': 'Your solution is empty!! Something is amiss',
+    'es_MX': '¡¡Tu solución está vacía!! Algo salió mal'
   },
   ///////////////////////////////////////////////////////////////////////////
   'define-start-warning': {
     '__desc__': 'When you define the start point again, it overwrites the solution and goal so we add a warning',
-    'en_US': 'Defining start point... solution and goal will be overwritten if they were defined earlier'
+    'en_US': 'Defining start point... solution and goal will be overwritten if they were defined earlier',
+    'es_MX': 'Definiendo punto de inicio... la solución y objetivo serán sobreescritos si ya fueron definidos antes'
   },
   ///////////////////////////////////////////////////////////////////////////
   'help-vague-level': {
     '__desc__': 'When you are in a level and you say help, its vague and you need to specify',
-    'en_US': 'You are in a level, so multiple forms of help are available. Please select either "help level" or "help general"'
+    'en_US': 'You are in a level, so multiple forms of help are available. Please select either "help level" or "help general"',
+    'es_MX': 'Estas en un nivel, muchas formas de ayuda están disponibles. Por favor, usa "help level" o "help general"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'help-vague-builder': {
     '__desc__': 'When you are in a level builder, the help command is vague so you need to specify what you mean',
-    'en_US': 'You are in a level builder, so multiple forms of help are available. Please select either "help general" or "help builder"'
+    'en_US': 'You are in a level builder, so multiple forms of help are available. Please select either "help general" or "help builder"',
+    'es_MX': 'Estas en el creador de niveles, muchas formas de ayuda están disponibles. Por favor, usa "help general" o "help builder"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'goal-to-reach': {
     '__desc__': 'title of window that shoes the goal tree to reach',
-    'en_US': 'Goal To Reach'
+    'en_US': 'Goal To Reach',
+    'es_MX': 'Objetivo a alcanzar'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hide-goal': {
     '__desc__': 'the helper message for the window that shows the goal tree',
-    'en_US': 'You can hide this window with "hide goal"'
+    'en_US': 'You can hide this window with "hide goal"',
+    'es_MX': 'Puedes esconder esta ventana usando "hide goal"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hide-start': {
     '__desc__': 'The helper message for the window that shows the start tree for a level',
-    'en_US': 'You can hide this window with "hide start"'
+    'en_US': 'You can hide this window with "hide start"',
+    'es_MX': 'Puedes esconder esta ventana usando "hide start"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'level-builder': {
     '__desc__': 'The name for the environment where you build levels',
-    'en_US': 'Level Builder'
+    'en_US': 'Level Builder',
+    'es_MX': 'Creador de niveles'
   },
   ///////////////////////////////////////////////////////////////////////////
   'no-start-dialog': {
     '__desc__': 'when the user tries to open a start dialog for a level that does not have one',
-    'en_US': 'There is no start dialog to show for this level!'
+    'en_US': 'There is no start dialog to show for this level!',
+    'es_MX': '¡No hay diálogo inicial a mostrar para este nivel!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'no-hint': {
     '__desc__': 'when no hint is available for a level',
-    'en_US': "Hmm, there doesn't seem to be a hint for this level :-/"
+    'en_US': "Hmm, there doesn't seem to be a hint for this level :-/",
+    'es_MX': 'Mhm, al parecer no hay pistas para este nivel :-/'
   },
   ///////////////////////////////////////////////////////////////////////////
   'error-untranslated-key': {
     '__desc__': 'This error happens when we are trying to translate a specific key and the locale version is mission',
-    'en_US': 'The translation for {key} does not exist yet :( Please hop on github and offer up a translation!'
+    'en_US': 'The translation for {key} does not exist yet :( Please hop on github and offer up a translation!', //don't think "please" should be there, maybe just a "hop on github!" thing.. -Zero
+    'es_MX': 'La traducción para {key} aún no existe :( ¡Entra a github y ofrece una traducción!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'error-untranslated': {
     '__desc__': 'The general error when we encounter a dialog that is not translated',
-    'en_US': 'This dialog or text is not yet translated in your locale :( Hop on github to aid in translation!'
+    'en_US': 'This dialog or text is not yet translated in your locale :( Hop on github to aid in translation!',
+    'es_MX': 'Este diálogo o texto aun no ha sido traducido a tu idioma :( ¡Entra a github para ayudar a traducirlo!'
   }
 };
 
@@ -15187,6 +15227,25 @@ require.define("/src/js/dialogs/levelBuilder.js",function(require,module,exports
         '  * Enter the command ```finish``` to output your level JSON!'
       ]
     }
+  }],
+  'en_US': [{
+    type: 'ModalAlert',
+    options: {
+      markdowns: [
+        '## ¡Bienvenido(a) al creador de niveles!',
+        '',
+        'Aqui están los pasos principales:',
+        '',
+        '  * Configura el ambiente inicial con los comandos de git',
+        '  * Define el árbol inicial usando ```define start```',
+        '  * Ingresa tus comandos de git que hagan la solución optima ',
+        '  * Define el objetivo del ejercicio usando ```define goal```. Definir el objetivo, tambien define la solición',
+        '  * Opcionalmente, puedes definir una pista usando ```define hint```',
+        '  * Edita el nombre usando ```define name```',
+        '  * Opcionalmente define un lindo diálogo inicial usando ```edit dialog```',
+        '  * ¡Ingresa el comando ```finish``` para obtener tu nivel terminado en formato JSON!'
+      ]
+    }
   }]
 };
 
@@ -17471,32 +17530,38 @@ exports.sequenceInfo = {
     displayName: {
       'en_US': 'Introduction Sequence',
       'zh_CN': '简介序列',
-      'ko': '기본 명령어'
+      'ko': '기본 명령어',
+      'es_MX': 'Secuencia de intrucción'
     },
     about: {
       'en_US': 'A nicely paced introduction to the majority of git commands',
       'zh_CN': '一个节奏感良好的主流 Git 命令介绍',
-      'ko': '브랜치 관련 주요 git 명령어를 깔끔하게 알려드립니다'
+      'ko': '브랜치 관련 주요 git 명령어를 깔끔하게 알려드립니다',
+      'es_MX': 'Una linda introducción a la mayoría de los comandos de git'
     }
   },
   rebase: {
     displayName: {
-      'en_US': 'Master the Rebase Luke!',
-      'ko': '리베이스 완전정복!'
+      'en_US': 'Master the Rebase, Luke!',
+      'ko': '리베이스 완전정복!',
+      'es_MX': 'Domina el "Rebase"'
     },
     about: {
       'en_US': 'What is this whole rebase hotness everyone is talking about? Find out!',
-      'ko': '그 좋다고들 말하는 rebase에 대해 알아봅시다!'
+      'ko': '그 좋다고들 말하는 rebase에 대해 알아봅시다!',
+      'es_MX': '¿Qué tanto tiene el rebase que todo el mundo habla de él? ¡Encuéntralo!'
     }
   },
   mixed: {
     displayName: {
       'en_US': 'A Mixed Bag',
-      'ko': '종합선물세트'
+      'ko': '종합선물세트',
+      'es_MX': 'Una bolda variada'
     },
     about: {
       'en_US': 'A mixed bag of Git techniques, tricks, and tips',
-      'ko': 'Git을 다루는 다양한 팁과 테크닉을 다양하게 알아봅니다'
+      'ko': 'Git을 다루는 다양한 팁과 테크닉을 다양하게 알아봅니다',
+      'es_MX': 'Una bolsa variada de técnicas, trucos y tips de git'
     }
   }
 };
@@ -17507,7 +17572,8 @@ exports.sequenceInfo = {
 require.define("/levels/intro/1.js",function(require,module,exports,__dirname,__filename,process,global){exports.level = {
   "name": {
     "en_US": "Introduction to Git Commits",
-    'ko': 'Git 커밋 소개'
+    'ko': 'Git 커밋 소개',
+    'es_MX': 'Introducción a los Commits de Git'
   },
   "goalTreeString": "{\"branches\":{\"master\":{\"target\":\"C3\",\"id\":\"master\"}},\"commits\":{\"C0\":{\"parents\":[],\"id\":\"C0\",\"rootCommit\":true},\"C1\":{\"parents\":[\"C0\"],\"id\":\"C1\"},\"C2\":{\"parents\":[\"C1\"],\"id\":\"C2\"},\"C3\":{\"parents\":[\"C2\"],\"id\":\"C3\"}},\"HEAD\":{\"target\":\"master\",\"id\":\"HEAD\"}}",
   "solutionCommand": "git commit;git commit",
@@ -17515,7 +17581,8 @@ require.define("/levels/intro/1.js",function(require,module,exports,__dirname,__
   "hint": {
     "en_US": "Just type in 'git commit' twice to finish!",
     "zh_CN": "敲两次 'git commit' 就好啦！",
-    "ko": "'git commit'이라고 두 번 치세요!"
+    "ko": "'git commit'이라고 두 번 치세요!",
+    'es_MX': '¡Solo escribe "git commit" dos veces para terminar!'
   },
   "disabledMap": {
     "git revert": true
@@ -17654,6 +17721,53 @@ require.define("/levels/intro/1.js",function(require,module,exports,__dirname,__
           }
         }
       ]
+    },
+    "es_MX": {
+      "childViews": [
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "## Commits de Git",
+              "Un 'commit' en un repositorio de git graba estados de todos los archivos en tu directorio. Es como un copiar y pegar gigantesco, ¡solo que mejor!",
+              "",
+              "Git quiere mantener tus commits tan ligeros como sea posible, así que no solo copia todo el directorio cada vez que haces un 'commit'. De hecho mantiene cada 'commit' como una serie de cambios o 'delta', desde una versión del repositorio a la siguiente. Es por eso que muchos 'commits' tienen un padre arriba -- verás esto después en las visualizaciones.",
+              "",
+              "
+              Para poder clonar un respositorio, tienes que obtener o 'resolve' todos estos deltas. Por eso puede que veas el siguiente resultado:",
+              "",
+              "`resolving deltas`",
+              "",
+              "cuando estés clonando un repositorio.",
+              "",
+              "Hay mucho que ver, pero por ahora puedes pensar en los 'commits' como estados de un proyecto. ¡Los 'Commits' son muy ligeros y cambiar entre ellos es muy fácil!"
+            ]
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Vamos a ver como es en la práctica. En el área de la derecha tenemos una visualización de un (pequeño) respositorio en git. Hay dos commits ahora -- el primer commit inicial, 'C0', y el commit consecutivo 'C1' que tiene algunos cambios importantes.",
+              "",
+              "Clickea en el botón de abajo para crear un commit nuevo"
+            ],
+            "afterMarkdowns": [
+              "¡Eso es todo! Acabamos de hacer cambios en el repositorio y los salvamos en un commit. El commit que acabamos de hacer tiene un padre, 'C1', el cual hace referencia al commit que fue la base para este."
+            ],
+            "command": "git commit",
+            "beforeCommand": ""
+          }
+        },
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "Adelante, ¡intentalo tu mismo! Cuando esta ventana se cierre, haz dos commits para completar el nivel"
+            ]
+          }
+        }
+      ]
     }
   }
 };
@@ -17664,12 +17778,14 @@ require.define("/levels/intro/2.js",function(require,module,exports,__dirname,__
   "solutionCommand": "git branch bugFix;git checkout bugFix",
   "name": {
     "ko": "Git에서 브랜치 쓰기",
-    "en_US": "Branching in Git"
+    "en_US": "Branching in Git",
+    "es_MX": "Ramificando en Git",
   },
   "hint": {
     "en_US": "Make a new branch with \"git branch [name]\" and check it out with \"git checkout [name]\"",
     "zh_CN": "用 'git branch [新分支名字]' 来创建新分支，并用 'git checkout [新分支]' 切换到新分支",
-    "ko": "\"git branch [브랜치명]\"으로 새 브랜치를 만들고, \"git checkout [브랜치명]\"로 그 브랜치로 이동하세요"
+    "ko": "\"git branch [브랜치명]\"으로 새 브랜치를 만들고, \"git checkout [브랜치명]\"로 그 브랜치로 이동하세요",
+    "es_MX": "Crea una nueva rama con \"git branch [nombre]\" y cambiate usando \"git checkout [nombre]\"",
   },
   "disabledMap": {
     "git revert": true
@@ -17908,6 +18024,84 @@ require.define("/levels/intro/2.js",function(require,module,exports,__dirname,__
           }
         }
       ]
+    },
+    "es_MX": {
+      "childViews": [
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "## Ramas en git",
+              "",
+              "Las ramas en git son increiblemente ligeras tambien. Son simplemente referencias a un commit en específico -- nada mas. Por eso mucho entusiastas de Git entonan el mantra:",
+              "",
+              "```",
+              "branch early, and branch often (ramifica pronto, ramifica seguido)",
+              "```",
+              "",
+              "Como no hay consumo de memoria / almacenamiento cuando creas nuevas ramas, es sencillo dividir lógicamente tu trabajo en vez de tener ramas muy gruesas.",
+              "",
+              "Cuando empezamos a usar ramas y commits, vemos como estas dos características se combinan. Por ahora solo recuerda que una rama esencialmente dice 'Yo voy a incluir todo el trabajo de este commit y toda su familia de commits.'"
+            ]
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Veamos como se ven las ramas en la práctica.",
+              "",
+              "Aqui haremos una nueva rama llamada 'newImage'"
+            ],
+            "afterMarkdowns": [
+              "Ya está, eso es todo lo que hay que hacer para ramificar. La rama 'newImage' ahora apunta a 'C1'"
+            ],
+            "command": "git branch newImage",
+            "beforeCommand": ""
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Tratemos de poner un poco de trabajo en esta nueva rama. Da click en el botón de abajo"
+            ],
+            "afterMarkdowns": [
+              "Oh no! La rama 'master' se movió pero la rama 'new Image' no lo hizo. Eso es porque no estabamos 'en' la nueva rama, es por eso que el asterisco (*) estaba en 'master'"
+            ],
+            "command": "git commit",
+            "beforeCommand": "git branch newImage"
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Vamos a decirle a git que queremos cambiarnos a la rama usando",
+              "",
+              "```",
+              "git checkout [nombre]",
+              "```",
+              "",
+              "Esto nos pondrá en la nueva ramaa antes de hacer nuestros cambios"
+            ],
+            "afterMarkdowns": [
+              "¡Ya está! Nuestros cambios fueron grabados en la nueva rama"
+            ],
+            "command": "git checkout newImage; git commit",
+            "beforeCommand": "git branch newImage"
+          }
+        },
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "¡Ok! Ahora estas listo para ramificar. Una vez que esta ventana se cierre,",
+              "haz una nueva rama llamada 'bugFix' y cámbiate a esa rama"
+            ]
+          }
+        }
+      ]
     }
   }
 };
@@ -17918,12 +18112,14 @@ require.define("/levels/intro/3.js",function(require,module,exports,__dirname,__
   "solutionCommand": "git checkout -b bugFix;git commit;git checkout master;git commit;git merge bugFix",
   "name": {
     "en_US": "Merging in Git",
-    "ko": "Git에서 브랜치 합치기(Merge)"
+    "ko": "Git에서 브랜치 합치기(Merge)",
+    "es_MX": "Juntando en git"
   },
   "hint": {
     "en_US": "Remember to commit in the order specified (bugFix before master)",
     "zh_CN": "记得按照给定的顺序来进行提交(commit) （bugFix 要在 master 之前）",
-    "ko": "말씀드린 순서대로 커밋해주세요 (bugFix에 먼저 커밋하고 master에 커밋)"
+    "ko": "말씀드린 순서대로 커밋해주세요 (bugFix에 먼저 커밋하고 master에 커밋)",
+    "es_MX": "Recuerda hacer tus commits en el orden espeficicado (bugFix antes que master)"
   },
   "disabledMap": {
     "git revert": true
@@ -18131,6 +18327,75 @@ require.define("/levels/intro/3.js",function(require,module,exports,__dirname,__
               "* `git merge` 명령어로 `bugFix`브랜치를 `master`에 합쳐 넣습니다.",
               "",
               "*아 그리고, \"help level\" 명령어로 이 안내창을 다시 볼 수 있다는 것을 기억해 두세요!*"
+            ]
+          }
+        }
+      ]
+    },
+    "es_MX": {
+      "childViews": [
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "## Ramas y Uniones",
+              "",
+              "¡Genial! Ahora sabemos como hacer un commit y una rama. Ahora necesitamos una forma de combinar el trabajo de las dos diferentes ramas. Esto nos permitirá hacer una rama, trabajar una nueva característica y luego unirla de regreso.",
+              "",
+              "El primer método para combiar el trabajo que examinaremos es 'git merge'. Al hacer 'merge' en git creamos un commit especial que tiene dos padres únicos. Un commit con dos padres esencialmente significa 'Quiero incluir todo el trabajo de este padre aquí y todo el de aquí, *Y* también el de sus padres'",
+              "",
+              "Es más sencillo visualmente, veámoslo en la siguiente pantalla"
+            ]
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Aquí tenemos dos ramas; cada una tiene un commit, el cual es único. Esto significa que ninguna de las dos ramas incluye el trabajo completo hecho en el repositorio. Vamos a corregir esto con un 'merge'.",
+              "",
+              "vamos a unir (merge) la rama 'bugfix' en la rama 'Master'"
+            ],
+            "afterMarkdowns": [
+              "¡Yay! ¿Ves eso? Primero que nada 'master' ahora apunta a un commit que tiene dos padres. Si seguimos las flechas hacia arriba desde 'master', veremos que toca todos los commits hasta la raiz. Esto significa que 'master' contiene todo el trabajo en el repositorio hasta ahora.",
+              "",
+              "También, ¿ves como los colores de los commits cambiaron? Para ayudarte a aprender, Incluí algo de coordinación de color. Cada rama tiene un color único. Cada commit cambia de color dependiendo de la combinación de colores de las ramas que contienen ese commit.",
+              "",
+              "Así que aquí tenemos que el color de la rama 'master' es una combinación de todos los commits, pero el color de 'bugfix' no. Vamos a arreglar eso..."
+            ],
+            "command": "git merge bugFix",
+            "beforeCommand": "git checkout -b bugFix; git commit; git checkout master; git commit"
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Vamos a juntar 'master' en 'bugFix':"
+            ],
+            "afterMarkdowns": [
+              "Como 'bugFix' es un hijo de 'master', git no tuvo que hacer ningún trabajo; simplemente movió 'bugFix' al mismo commit al que 'master' está incluido.",
+              "",
+              "Ahora todos los commits son del mismo color, lo que significa que cada rama contiene todo el trabajo en el repositorio! Woohoo"
+            ],
+            "command": "git checkout bugFix; git merge master",
+            "beforeCommand": "git checkout -b bugFix; git commit; git checkout master; git commit; git merge bugFix"
+          }
+        },
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "Para completar este nivel, haz los siguientes pasos:",
+              "",
+              "* Crea una nueva rama llamada 'bugFix'",
+              "* Cambiate a la rama 'bugFix' usando 'git checkout bugFix'",
+              "* Haz un commit",
+              "* Regresa a 'master' usando 'git checkout'",
+              "* Haz otro commit",
+              "* Junta la rama 'bugFix' con 'master' usando 'git merge'",
+              "",
+              "*Recuerda, siempre puede re-desplegar este diálogo usando 'help level'!*"
             ]
           }
         }
@@ -20024,6 +20289,60 @@ require.define("/src/js/dialogs/sandbox.js",function(require,module,exports,__di
         '이제 레슨을 시작해봅시다...'
       ]
     }
+  }],
+  'es_MX': [{ // maybe es_ES?
+    type: 'ModalAlert',
+    options: {
+      markdowns: [
+        '## Bienvenido(a) a LearnGitBranching!',
+        '',
+        'Esta aplicación está diseñada para ayudar a los principiantes ',
+        'a comprender el poder de los conceptos detras de la ramificación ',
+        'cuando se está trabajando con git. ¡Esperamos que disfrutes esta ',
+        'aplicación y tal vez aprendas algo!',
+        '',
+        '# Demostración!',
+        '',
+        'Si no has visto la demostración, por favor chécalo aqui:',
+        '',
+        '[http://pcottle.github.com/learnGitBranching/?demo](http://pcottle.github.com/learnGitBranching/?demo)',
+        '',
+        '¿Cansado(a) de este diálogo?, solo escribe `?NODEMO` en el url para eliminarlo, aqui hay un link para tu conveniencia:',
+        '',
+        '[http://pcottle.github.com/learnGitBranching/?NODEMO](http://pcottle.github.com/learnGitBranching/?NODEMO)'
+      ]
+    }
+  }, {
+    type: 'ModalAlert',
+    options: {
+      markdowns: [
+        '## Comandos en GIT',
+        '',
+        'Tienes una larga variedad de comandos de git disponibles en el `sandbox`. Estos incluyen',
+        '',
+        ' * commit',
+        ' * branch',
+        ' * checkout',
+        ' * cherry-pick',
+        ' * reset',
+        ' * revert',
+        ' * rebase',
+        ' * merge'
+      ]
+    }
+  }, {
+    type: 'ModalAlert',
+    options: {
+      markdowns: [
+        '## ¡Compartir es querer!',
+        '',
+        'Comparte tus árboles de código con tus amigos usando `export tree` e `import tree`',
+        '',
+        '¿Tienes una buena lección para compartir?. Intenta contruyendo un nicel usando `build level` o prueba un nivel de una amigo con `import level`',
+        '',
+        'Por ahora empecemos con los `levels`...'
+      ]
+    }
   }]
 };
 
@@ -20377,6 +20696,25 @@ require.define("/src/js/dialogs/levelBuilder.js",function(require,module,exports
         '  * Edit the name with ```define name```',
         '  * Optionally define a nice start dialog with ```edit dialog```',
         '  * Enter the command ```finish``` to output your level JSON!'
+      ]
+    }
+  }],
+  'es_MX': [{
+    type: 'ModalAlert',
+    options: {
+      markdowns: [
+        '## ¡Bienvenido(a) al creador de niveles!',
+        '',
+        'Aqui están los pasos principales:',
+        '',
+        '  * Configura el ambiente inicial con los comandos de git',
+        '  * Define el árbol inicial usando ```define start```',
+        '  * Ingresa tus comandos de git que hagan la solución optima ',
+        '  * Define el objetivo del ejercicio usando ```define goal```. Definir el objetivo, tambien define la solición',
+        '  * Opcionalmente, puedes definir una pista usando ```define hint```',
+        '  * Edita el nombre usando ```define name```',
+        '  * Opcionalmente define un lindo diálogo inicial usando ```edit dialog```',
+        '  * ¡Ingresa el comando ```finish``` para obtener tu nivel terminado en formato JSON!'
       ]
     }
   }]
